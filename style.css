@@ -1,0 +1,614 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@500&family=Quicksand:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: gray;
+}
+
+main {
+    padding: 20px;
+    overflow: auto;
+}
+
+.nav-item:hover {
+  padding-bottom: 5px;
+  border-bottom: 3px solid #046be2;
+  color: #046be2;
+}
+
+.kolom {
+margin-top: 50px;
+margin-bottom: 50px;
+}
+
+
+a.tbl-biru {
+background: rgb(255, 217, 146);
+border-radius: 20px;
+margin-top: 20px;
+padding: 1px 6px 1px 6px;
+color: white;
+cursor: pointer;
+font-weight: bold;
+border: 3px solid brown;
+}
+
+a.tbl-biru:hover {
+background: brown;
+text-decoration: none;
+}
+
+nav a{
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+nav a:hover {
+    font-weight: bold;
+}
+
+h2,h3{
+    color: brown;
+    text-align: center;
+}
+
+.featured-image {
+    width: 100%;
+    max-height: 300px;
+    object-fit: cover;
+    object-position: center;
+
+}
+footer {
+    padding: 20px;
+    color: brown;
+    background-color: rgb(255, 217, 146);
+    text-align: center;
+    font-weight: bold;
+}
+
+.profile img{
+    width: 200px;
+    
+}
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: rgb(255, 217, 146);
+}
+
+.jumbotron {
+    padding: 90px;
+    background-image: url(Gmb/129bbbc6-47b4-48a5-98e2-5f1f5e545641.jpg);
+    font-size: 20px;
+    color: brown;
+    text-align: center;
+}
+nav li {
+    display: inline;
+    list-style-type: none;
+    margin-right: 20px;
+}
+
+nav {
+    background-color: rgb(255, 217, 146);
+    padding: 5px;
+    position: sticky;
+    top: 0;
+    border: 4px solid brown;
+}
+
+nav a {
+    font-size: 18px;
+    font-weight: 400;
+    text-decoration: none;
+    color: brown ;
+
+}
+
+#content {
+    float: left;
+    width: 75%;
+}
+
+aside {
+    float: right;
+    width: 25%;
+    padding-left: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+header{
+    display: inline;
+}
+
+
+
+@media screen and (max-width: 1000px) {
+    #content,
+    aside {
+        width: 100%;
+        padding: 0;
+    }
+}
+
+.beondegi2 {
+
+    font-family: 'Outfit', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+    color: brown;
+    background-color: rgb(255, 217, 146);
+    padding: 8px 20px;   
+    border-radius: 20px;
+    display: inline-block;
+    margin-top: 20px;
+    text-align: center;
+    transition: .2s;
+    width: 120px;
+    border: 3px solid brown;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.beondegi:hover {
+  color:  rgb(255, 217, 146);
+  background-color: brown;
+}
+
+.dakjuk2 {
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: brown;
+  background-color: rgb(255, 217, 146);
+  padding: 8px 20px;    
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  transition: .2s;
+  width: 120px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.dakjuk2:hover {
+color:  rgb(255, 217, 146);
+background-color: brown;
+}
+
+.galbi2 {
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: brown;
+  background-color:  rgb(255, 217, 146);
+  padding: 8px 20px;    
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  transition: .2s;
+  width: 120px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.galbi2:hover {
+color: rgb(255, 217, 146);
+background-color: brown;
+}
+
+.haemul2 {
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: brown;
+  background-color:  rgb(255, 217, 146);
+  padding: 8px 20px;    
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  transition: .2s;
+  width: 120px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.haemul2:hover {
+color:  rgb(255, 217, 146);
+background-color: brown;
+}
+ 
+.hoe2 {
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: brown;
+  background-color:  rgb(255, 217, 146);
+  padding: 8px 20px;    
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  transition: .2s;
+  width: 120px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.hoe2:hover {
+color:  rgb(255, 217, 146);
+background-color: brown;
+}
+
+.bimbibap2 {
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: brown;
+  background-color:  rgb(255, 217, 146);
+  padding: 8px 20px;    
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  transition: .2s;
+  width: 120px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.bimbibap2:hover {
+color:  rgb(255, 217, 146);
+background-color: brown;
+}
+
+.yang2 {
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: brown;
+  background-color:  rgb(255, 217, 146);
+  padding: 8px 20px;    
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  transition: .2s;
+  width: 120px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.yang2:hover {
+color:  rgb(255, 217, 146);
+background-color: brown;
+}
+
+.boki2 {
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: brown;
+  background-color:  rgb(255, 217, 146);
+  padding: 8px 20px;    
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  transition: .2s;
+  width: 120px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.boki2:hover {
+color:  rgb(255, 217, 146);
+background-color: brown;
+}
+
+.kimbab2 {
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: brown;
+  background-color:  rgb(255, 217, 146);
+  padding: 8px 20px;    
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  transition: .2s;
+  width: 120px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.kimbab2:hover {
+color:  rgb(255, 217, 146);
+background-color: brown;
+}
+
+.milkis2 {
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: brown;
+  background-color:  rgb(255, 217, 146);
+  padding: 8px 20px;    
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  transition: .2s;
+  width: 120px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.milkis2:hover {
+color:  rgb(255, 217, 146);
+background-color: brown;
+}
+
+.boba2 {
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: brown;
+  background-color:  rgb(255, 217, 146);
+  padding: 8px 20px;    
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  transition: .2s;
+  width: 120px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.boba2:hover {
+color:  rgb(255, 217, 146);
+background-color: brown;
+}
+
+.banana2 {
+
+  font-family: 'Outfit', sans-serif;
+  font-size: 1rem;
+  font-weight: 700;
+  color: brown;
+  background-color:  rgb(255, 217, 146);
+  padding: 8px 20px;    
+  border-radius: 20px;
+  display: inline-block;
+  margin-top: 20px;
+  text-align: center;
+  transition: .2s;
+  width: 120px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.banana2:hover {
+color:  rgb(255, 217, 146);
+background-color: brown;
+}
+
+
+.wrap {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#card {
+  background-color: #202020;
+  width: 300px;
+  height: 400px;
+  padding: 20px 10px 20px 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 30px;
+  border: 5px solid brown;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.skill-img {
+  width: 150px;
+  height: 150px;
+  border: 3px solid rgb(255, 217, 146);
+  border-radius: 10px;
+}
+
+h1.name-skill {
+  color: white;
+}
+p.beondegi{
+  color: white;
+  text-align: center;
+}
+
+.proses {
+  background-color: #bebebe;
+  width: 200px;
+  height: 20px;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+p.dakjuk{
+  color: white;
+  text-align: center;
+}
+
+p.galbi{
+  color: white;
+  text-align: center;
+}
+
+p.haemul{
+  color: white;
+  text-align: center;
+}
+
+p.hoe{
+  color: white;
+  text-align: center;
+}
+
+p.bibimbap{
+  color: white;
+  text-align: center;
+}
+
+p.yang{
+  color: white;
+  text-align: center;
+}
+
+p.boki{
+  color: white;
+  text-align: center;
+}
+
+p.kimbab{
+  color: white;
+  text-align: center;
+}
+
+p.milkis{
+  color: white;
+  text-align: center;
+}
+
+p.boba{
+  color: white;
+  text-align: center;
+}
+
+p.banana{
+  color: white;
+  text-align: center;
+}
+
+
+@media screen and (max-width: 1040px) {
+  #card {
+      width: 250px;
+      height: 300px;
+      margin: 0 20px;
+  }
+
+  .skill-img {
+      width: 200px;
+  }
+
+  .name-skill {
+      font-size: 1.2rem;
+  }
+
+  .proses {
+      width: 180px;
+      height: 20px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  #card {
+      width: 200px;
+      height: 250px;
+      margin: 0 15px;
+  }
+
+  .skill-img {
+      width: 180px;
+  }
+
+  .name-skill {
+      font-size: 1rem;
+  }
+
+  .proses {
+      width: 150px;
+      height: 18px;
+  }
+}
+
+@media screen and (max-width: 1040px) {
+  .wrap {
+      flex-direction: column;
+  }
+
+  section.skills {
+      height: 1500px;
+      background-color: #2a2a2a;
+      padding: 100px 40px;
+  }
+
+  h2.skill-h {
+      font-size: 36px;
+      color: white;
+      text-align: center;
+      margin-bottom: 30px;
+  }
+
+  #card {
+      width: 300px;
+      height: 350px;
+      padding: 20px 10px 20px 10px;
+      margin: 30px 0;
+  }
+
+  .skill-img {
+      width: 200px;
+      height: 100px;
+  }
+
+  .proses {
+      background-color: #bebebe;
+      width: 200px;
+      height: 20px;
+      border-radius: 3px;
+      overflow: hidden;
+  }
+}
